@@ -1,0 +1,20 @@
+name: RandomKits
+version: '${version}'
+main: io.github.itzispyder.randomkits.RandomKits
+api-version: '1.20'
+authors: [ImproperIssues]
+description: Random kits for pvp and maps
+
+permissions:
+  rk.commands.kit:
+    description: Permission to run /kit
+    default: op
+
+commands:
+  kit:
+    description: Edit, load, save, or delete kits
+    permission: rk.commands.kit
+    aliases:
+      - kits
+      - randomkits
+      - rk

@@ -1,0 +1,5 @@
+
+plugin:
+  triggers:
+    game-join: true # loads kit on player join
+    player-death: true # loads kit on player respawn
